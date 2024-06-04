@@ -7,7 +7,7 @@ public class TargetHandler : MonoBehaviour
 {
     private bool openPipe = false;
     private Transform parent;
-    private float openSpeed = 2f;
+    private float openSpeed = 10f;
     private void Start()
     {
         parent = transform.parent.GetChild(0);
