@@ -16,6 +16,7 @@ public class ArrowHandler : MonoBehaviour
                 birdScript = FindObjectOfType<BirdScript>();
                 if (birdScript != null)
                 {
+                    // cool thing
                     birdScript.currentArrows = currentArrows;
                 }
                 Destroy(gameObject);
